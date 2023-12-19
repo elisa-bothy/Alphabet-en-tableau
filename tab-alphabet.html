@@ -13,27 +13,37 @@
 </head>
 <body>
     <table>
+        <thead>
+            <tr>
+                <th>Heure</th>
+                <th colspan="4">Lundi</th>
+                <th colspan="4">Mardi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>8:00</th>
+                <td colspan="4">Cours HTML</td>
+                <td colspan="4">Cours langage C</td>
+            </tr>
+            <tr>
+                <th>9:00</th>
+                <td colspan="4">Cours CSS</td>
+                <td colspan="4" rowspan="3">Cours Java</td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td colspan="4" rowspan="2">Cours JavaScript</td>
+            </tr>
+            <tr>
+                <th>11:00</th>
+            </tr>
+    </tbody>
+    <tfoot>
         <tr>
-           <th>Heure</th>
-           <th colspan="4">Lundi</th>
-           <th colspan="4">Mardi</th>
+            <td colspan="8">Les horaires peuvent être modifiés</td>
         </tr>
-        <tr>
-            <th>8:00</th>
-            <td colspan="4">Cours HTML</td>
-            <td colspan="4">Cours langage C</td>
-        </tr>
-        <tr>
-            <th>9:00</th>
-            <td colspan="4">Cours CSS</td>
-            <td colspan="4" rowspan="3">Cours Java</td>
-        </tr>
-        <tr>
-            <th>10:00</th>
-            <td colspan="4" rowspan="2">Cours JavaScript</td>
-        </tr>
-        <tr>
-            <th>11:00</th></tr>
+    </tfoot>
     </table>
 </body>
 </html>
